@@ -77,17 +77,17 @@
 
 ## Step-5:  Adding prometheus and grafana repos
 
-    ### Add prometheus Helm repo
+### Add prometheus Helm repo
     
-          helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+    helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
 
-    ### Add grafana Helm repo
+### Add grafana Helm repo
     
-          helm repo add grafana https://grafana.github.io/helm-charts
+    helm repo add grafana https://grafana.github.io/helm-charts
 
  > Verify all repos added in your local 
  
-          helm repo list
+    helm repo list
           
 ## Step-6: Prometheus Installation
 
@@ -117,7 +117,7 @@ helm install prometheus prometheus-community/prometheus \
 
 ## Step-6: Grafana Installation
 
-    > Create YAML file called grafana.yaml with following commands:
+> Create YAML file called grafana.yaml with following commands:
           
           
 ```
