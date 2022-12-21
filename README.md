@@ -94,7 +94,7 @@
 
 ```
 
-kubectl create namespace 
+kubectl create namespace prometheus
         
 helm install prometheus prometheus-community/prometheus \
     --namespace prometheus \
